@@ -34,9 +34,12 @@ display: none; top: 100%;}
 .nav-toggle-label {font-size: 2rem;}
 
 /* Main Content */
-main { background-color: lightblue; 
+main { 
 /* Make the main element take the all surplus space to the footer */
 flex: 1 0 auto; margin-top: 47px;}
+
+/* Hero Section */
+#hero {height: 600px; width: 100%; background-color: lightgreen;}
 
 /* Footer */
 #social-networks { text-align: center; padding: 20px 0; display: flex;
