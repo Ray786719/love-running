@@ -14,7 +14,7 @@ font-family: 'Playfair', sans-serif; }
 
 /* Header */
 header { background-color: lightcoral; }
-
+h1 { font-family: 'ital', sans-serif;}
 /* Main Content */
 main { background-color: lightblue; 
 /* Make the main element take the all surplus space to the footer */
