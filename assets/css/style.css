@@ -2,11 +2,18 @@
 /* Asterisk Wildcard selector created to override default setting of the browser */
 * { padding: 0; margin: 0; box-sizing: border-box;}
 
+/* Flexbox styles */
+body { min-height: 100vh; display: flex; flex-direction: column;
+/* Generic Color style */
+color: #3a3a3a;}
+
 /* Header */
 header { background-color: lightcoral; }
 
 /* Main Content */
-main { background-color: lightblue; }
+main { background-color: lightblue; 
+/* Make the main element take the all surplus space to the footer */
+flex: 1 0 auto;}
 
 /* Footer */
 footer { background-color: orange; }
